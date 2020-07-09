@@ -1,0 +1,104 @@
+@import url('common.css');
+
+body{
+    background: black;
+}
+.header {
+    width: 1900px;
+  
+    text-align: center;
+    ;
+    padding: 100px 0;
+}
+
+.header h1 {
+    float: left;
+    margin: 0 10%;
+}
+
+.header div {
+    float: center;
+}
+
+.header div a {
+    padding: 20px;
+}
+
+
+.container {  
+}
+
+.con1 {
+    overflow: hidden;
+    margin: 0 450px;
+   vertical-align: middle;
+}
+
+.con1 img {
+    float: left;
+    
+}
+
+.con1 div {
+    width: 30%;
+    position:relative;
+    float: right;
+     text-align: right;
+}
+
+.con1 div h2{
+    font-size: 30px;
+    color: brown;
+}
+.con1 div a {
+    font-size: 12px;
+}
+
+.con1 div p {
+    font-size: 20px;
+    margin: 45px auto;
+}
+
+
+
+.con2{
+    text-align: center;
+}
+
+.con2 h3{
+    font-size: 30px;
+     color: brown;
+    margin: 90px auto;
+}
+.con2 p{}
+
+.con3{
+    overflow: hidden;
+}
+.con3 div:nth-of-type(1){
+margin: 50px auto;
+}
+.con3 div > h4{
+      font-size: 30px;
+     color: brown;
+    
+    
+}
+.list {
+    display: inline-block;
+}
+.list div:nth-of-type(1){float: left;}
+.list div img{}
+.list div p{}
+list div:nth-of-type(2){float: right;}
+
+
+
+.footer{ 
+}
+.footer p{
+    display: inline-block;
+}
+.footer img{
+    float: right;
+}
